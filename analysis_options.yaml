@@ -1,0 +1,139 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # INFO Rules
+    - always_put_control_body_on_new_line
+    - always_put_required_named_parameters_first
+    - avoid_positional_boolean_parameters
+    - avoid_print
+    - curly_braces_in_flow_control_structures
+    - prefer_adjacent_string_concatenation
+    - prefer_interpolation_to_compose_strings
+    - require_trailing_commas
+    - sort_unnamed_constructors_first
+    # WARNING Rules
+    - always_use_package_imports
+    - avoid_redundant_argument_values
+    - avoid_relative_lib_imports
+    - avoid_renaming_method_parameters
+    - avoid_unused_constructor_parameters
+    - constant_identifier_names
+    - deprecated_consistency
+    - literal_only_boolean_expressions
+    - prefer_conditional_assignment
+    - prefer_final_fields
+    - prefer_final_locals
+    - prefer_final_in_for_each
+    - prefer_function_declarations_over_variables
+    - prefer_single_quotes
+    - prefer_spread_collections
+    - sized_box_for_whitespace
+    - sized_box_shrink_expand
+    - unnecessary_await_in_return
+    - unnecessary_lambdas
+    - use_colored_box
+    - use_decorated_box
+    - use_is_even_rather_than_modulo
+    - use_late_for_private_fields_and_variables
+    - use_rethrow_when_possible
+    # ERROR Rules
+    - always_declare_return_types
+    - avoid_bool_literals_in_conditional_expressions
+    - avoid_empty_else
+    - avoid_init_to_null
+    - avoid_multiple_declarations_per_line
+    - avoid_returning_null_for_void
+    - avoid_void_async
+    - await_only_futures
+    - cast_nullable_to_non_nullable
+    - empty_catches
+    - empty_constructor_bodies
+    - file_names
+    - noop_primitive_operations
+    - no_leading_underscores_for_library_prefixes
+    - no_leading_underscores_for_local_identifiers
+    - only_throw_errors
+    - parameter_assignments
+    - prefer_if_null_operators
+    - prefer_is_empty
+    - prefer_is_not_empty
+    - prefer_is_not_operator
+    - prefer_null_aware_method_calls
+    - prefer_null_aware_operators
+    - unnecessary_constructor_name
+    - unnecessary_late
+    - unnecessary_null_aware_assignments
+    - unnecessary_null_in_if_null_operators
+    - unnecessary_nullable_for_final_variable_declarations
+    - unrelated_type_equality_checks
+    - use_test_throws_matchers
+
+analyzer:
+  errors:
+    # INFO Rules
+    always_put_control_body_on_new_line: info
+    always_put_required_named_parameters_first: info
+    avoid_positional_boolean_parameters: info
+    avoid_print: info
+    curly_braces_in_flow_control_structures: info
+    prefer_adjacent_string_concatenation: info
+    prefer_interpolation_to_compose_strings: info
+    require_trailing_commas: info
+    sort_unnamed_constructors_first: info
+    # WARNING Rules
+    always_use_package_imports: warning
+    avoid_redundant_argument_values: warning
+    avoid_relative_lib_imports: warning
+    avoid_renaming_method_parameters: warning
+    avoid_unused_constructor_parameters: warning
+    constant_identifier_names: warning
+    deprecated_consistency: warning
+    literal_only_boolean_expressions: warning
+    prefer_conditional_assignment: warning
+    prefer_final_fields: warning
+    prefer_final_locals: warning
+    prefer_final_in_for_each: warning
+    prefer_function_declarations_over_variables: warning
+    prefer_single_quotes: warning
+    prefer_spread_collections: warning
+    sized_box_for_whitespace: warning
+    sized_box_shrink_expand: warning
+    unnecessary_await_in_return: warning
+    unnecessary_lambdas: warning
+    use_colored_box: warning
+    use_decorated_box: warning
+    use_is_even_rather_than_modulo: warning
+    use_late_for_private_fields_and_variables: warning
+    use_rethrow_when_possible: warning
+    # ERROR Rules
+    always_declare_return_types: error
+    avoid_bool_literals_in_conditional_expressions: error
+    avoid_empty_else: error
+    avoid_init_to_null: error
+    avoid_multiple_declarations_per_line: error
+    avoid_returning_null_for_void: error
+    avoid_void_async: error
+    await_only_futures: error
+    cast_nullable_to_non_nullable: error
+    empty_catches: error
+    empty_constructor_bodies: error
+    file_names: error
+    noop_primitive_operations: error
+    no_leading_underscores_for_library_prefixes: error
+    no_leading_underscores_for_local_identifiers: error
+    only_throw_errors: error
+    parameter_assignments: error
+    prefer_if_null_operators: error
+    prefer_is_empty: error
+    prefer_is_not_empty: error
+    prefer_is_not_operator: error
+    prefer_null_aware_method_calls: error
+    prefer_null_aware_operators: error
+    unnecessary_constructor_name: error
+    unnecessary_late: error
+    unnecessary_null_aware_assignments: error
+    unnecessary_null_in_if_null_operators: error
+    unnecessary_nullable_for_final_variable_declarations: error
+    unrelated_type_equality_checks: error
+    use_test_throws_matchers: error
